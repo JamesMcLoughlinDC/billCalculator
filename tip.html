@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel=" stylesheet" href="tip.css" />
+
+</head>
+
+<body>
+    <div class="mainCont">
+        <div class="testing">
+            <h2>Tip Calculator</h2>
+        </div>
+        
+        <form>
+            <p>Enter the bill amount:</p>
+            <input type=" text" id="billAmount" />
+
+            <p>Number of people:</p>
+            <input type=" text" id="numPeople" />
+
+            <p> Level of Service: </p>
+
+            <select name="cars" id="tipAmount">
+                <option value="0.1">Substandard: 10%</option>
+                <option value="0.15">Normal: 15%</option>
+                <option value="0.2">Great: 20%</option>
+                <option value="0.3">Amazing: 30%</option>
+            </select>
+
+        </form>
+
+        <button type="button" onclick = "calculate()" >CALCULATE</button>
+
+
+        <p id = "finalText"></p>
+        
+    </div>
+
+    <script type=" text/javascript" src=" tip.js"></script>
+</body>
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</html>
+
+
+

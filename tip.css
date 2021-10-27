@@ -1,0 +1,40 @@
+﻿body {
+    background-color: lightslategrey;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.mainCont {
+    background-image: linear-gradient(bottom, green 20%, #FAC815 80%);
+    background-image: -o-linear-gradient(bottom, green 20%, #FAC815 80%);
+    background-image: -moz-linear-gradient(bottom, green 20%, #FAC815 80%);
+    background-image: -webkit-linear-gradient(bottom, green 20%, #FAC815 80%);
+    /*    background-color: palegreen; */
+    border-radius: 20px;
+    width: 24%;
+    height: 500px;
+    margin-left: 38%;
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+
+p {
+    margin-top: 15px;
+}
+
+.testing {
+    background-color: black;
+    height: 50px;
+    border-radius: 20px 20px 0px 0px;
+    color: white;
+    padding: 3px;
+}
+
+button {
+    border-radius: 10px;
+    background-color: white;
+    margin: 10px;
+
+
+}
