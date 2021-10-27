@@ -3,6 +3,18 @@
     font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+button {
+    border-radius: 10px;
+    background-color: white;
+    margin: 10px;
+
+
+}
+
+p {
+    margin-top: 15px;
+}
+
 .mainCont {
     background-image: linear-gradient(bottom, green 20%, #FAC815 80%);
     background-image: -o-linear-gradient(bottom, green 20%, #FAC815 80%);
@@ -19,9 +31,7 @@
 
 
 
-p {
-    margin-top: 15px;
-}
+
 
 .testing {
     background-color: black;
@@ -31,10 +41,3 @@ p {
     padding: 3px;
 }
 
-button {
-    border-radius: 10px;
-    background-color: white;
-    margin: 10px;
-
-
-}
